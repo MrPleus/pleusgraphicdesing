@@ -1,4 +1,4 @@
-@media screen and (max-width: 780px) {
+@media only screen and (max-width: 780px) {
     /*BODY*/
     .body-section{
         display: block;
@@ -96,6 +96,45 @@
         transform: rotate(-45deg) translate(4px, -5px);
     }
         
+/*BIO*/
 
+.row{
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.col-2{
+    display: none;
+    flex-basis: 100%;
+    margin-bottom: 50px;
+}
+
+.col-2 .controller{
+    width: 80%;
+}
+
+.color-box{
+    display: none;
+    transform: translateY(100px);
+}
+
+.col-1{
+    flex-basis: 100%;
+}
+
+.col-1 h2{
+    margin: 0;
+
+    font-size: 30px;
+}
+
+.col-1 h5{
+    font-size: 15px;
+}
+
+.col-1 p{
+    
+    font-size:15px;
+}
         
 }
